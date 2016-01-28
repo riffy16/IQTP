@@ -1,0 +1,83 @@
+
+/*Customize the navbar
+------------------------------------------------*/
+
+.navlogo {
+  float: none;
+  padding-left: 20px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.navbar-right {
+  padding-right: 30px;
+  padding-top: 20px;
+}
+
+.dropdown-menu {
+  position: static;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+/* Modifications of main body */
+
+.no-gutter > [class*='col-'] {
+  padding-right:0;
+  padding-left:0;
+}
+
+.container-fluid {
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+#minservicepic {
+  width:49%;
+}
+
+
+/* media queries */
+@media (min-width: 768px) {
+  .col-md-6 {
+    width: 49%;
+  }
+}
+
+@media (min-width: 767px) {
+  .col-md-6 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .col-md-6 {
+    width: 100%;
+  }
+}
