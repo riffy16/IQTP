@@ -14,9 +14,15 @@
   padding-top: 20px;
 }
 
+.navbar {
+  line-height: 150px;
+}
+
 .dropdown-menu {
   position: static;
 }
+
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
